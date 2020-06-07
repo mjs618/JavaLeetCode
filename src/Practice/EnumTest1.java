@@ -1,6 +1,6 @@
 package Practice;
 
-class FreshJuice{
+class Freshjuice{
     enum FreshJuiceSize{SMALL, MEDIUM, LARGE}
     FreshJuiceSize size;
 }
@@ -9,8 +9,8 @@ public class EnumTest1 {
 
 
     public static void main(String[] args) {
-        FreshJuice freshjuice = new FreshJuice();
-        freshjuice.size = FreshJuice.FreshJuiceSize.SMALL;
+        Freshjuice freshjuice = new Freshjuice();
+        freshjuice.size = Freshjuice.FreshJuiceSize.SMALL;
         System.out.println(freshjuice.size );
     }
 }
