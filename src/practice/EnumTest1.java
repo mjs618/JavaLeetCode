@@ -1,10 +1,13 @@
-package Practice;
+package practice;
 
 class FreshJuice{
     enum FreshJuiceSize{SMALL, MEDIUM, LARGE}
     FreshJuiceSize size;
 }
 
+/**
+ * @author mjs
+ */
 public class EnumTest1 {
 
 
