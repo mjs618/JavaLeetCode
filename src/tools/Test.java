@@ -1,4 +1,4 @@
-package Tools;
+package tools;
 
 public class Test {
     public static int max(int a, int b) {
