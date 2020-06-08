@@ -11,6 +11,8 @@ public class Puppy {
         System.out.println("小狗的名字是：" + name);
     }
 
+    public Puppy(){}
+
     public void setPuppyAge(int age) {
         this.puppyAge = age;
     }
@@ -27,6 +29,11 @@ public class Puppy {
         puppy.getPuppyAge();
         System.out.println("访问成员变量的方式获取小狗的年龄：" + puppy.puppyAge);
     }
+
+
+
+
+
 }
 
 /*
